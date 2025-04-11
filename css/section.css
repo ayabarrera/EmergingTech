@@ -1,0 +1,79 @@
+.faq, .faq-reverse {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FBD44C;
+    color: rgb(0, 0, 0);
+}
+
+.faq-reverse {
+background-color: #FEF2DD;
+}
+
+.faq-media {
+    order: 1;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.faq-container {
+    order: 2;
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.reverse-container {
+    order: 1;
+    flex: 0 0 50%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.reverse-media {
+    order: 2;
+    flex: 0 0 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.faq h1, .faq-reverse h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.faq p, .faq-reverse {
+    font-size: 1.5rem;
+}
+
+li {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .faq, .faq-reverse {
+        flex-direction: column;
+    }
+
+    .faq-media, .faq-container,
+    .reverse-container, .reverse-media {
+        flex: 0 0 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .faq-media dotlottie-player,
+    .reverse-media dotlottie-player {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
