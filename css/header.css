@@ -1,0 +1,81 @@
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+   
+}
+
+.nav-links a:hover { 
+    text-decoration: underline;
+}
+
+.nav-links a.active {
+    color: #1bcfc0;
+    font-style: oblique;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+    height: 100vh;
+}
+
+.content {
+    width: 70%;
+    padding: 20px;
+
+}
+
+.content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    margin-bottom: 100px;
+
+}
+
+.media-header {
+    width: 30%;
+}
+
+.media {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.media dotlottie-player {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
