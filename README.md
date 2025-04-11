@@ -37,21 +37,23 @@
 ## Integration - this is also explained in the Learn More page of the website.
 ### HTML
 1. Include the @dotlottie/player-component script in your HTML's <head> or <body>
-    - <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    - `<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>`
 2. Then, use the <dotlottie-player> custom element in your HTML where you want the animation
-    - <dotlottie-player src="YOUR_LOTTIE_FILE_URL.lottie" autoplay loop controls></dotlottie-player>
+    - `<dotlottie-player src="YOUR_LOTTIE_FILE_URL.lottie" autoplay loop controls></dotlottie-player>`
+
 *No specific dependencies beyond a web browser and an internet connection to fetch the player component and Lottie file.* 
 
 ### React
 1. Install the @dotlottie/react-player npm package
-    - npm install @dotlottie/react-player
+    - 1npm install @dotlottie/react-player`
 2. Import and use the DotLottiePlayer component in your React components
-    - import { DotLottiePlayer } from '@dotlottie/react-player';
+    - `import { DotLottiePlayer } from '@dotlottie/react-player';`
         
-        function MyComponent() {
-        return (
-        <DotLottiePlayer src="YOUR_LOTTIE_FILE_URL.lottie" autoplay loop controls />
+       ` function MyComponent() {`
+       ` return (`
+        `<DotLottiePlayer src="YOUR_LOTTIE_FILE_URL.lottie" autoplay loop controls />
         );
-        }
+        }`
+    
 *Requires a React project setup (Node.js, npm/yarn) and the @dotlottie/react-player package.*
 *Running Locally: Navigate to your React project directory in the terminal and run npm start*
