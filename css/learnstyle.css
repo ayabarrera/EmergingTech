@@ -1,0 +1,105 @@
+.integrations-section { /*container for the whole thing*/
+  padding: 4rem 2rem;
+  width: 100%;
+}
+ 
+.section-header { /*page header*/
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-header h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.section-header .subheading {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.integration-card {
+  background: #fff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.integration-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+}
+
+.integration-card dotlottie-player {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.integration-card h2 {
+  margin-bottom: 0.5rem;
+}
+
+.integration-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.integration-card a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #aa8708;
+}
+
+.integration-card a:hover {
+  text-decoration: underline;
+}
+
+ul li {
+  margin-left: 20px;
+}
+
+a {
+  margin-top: 20px;
+}
+
+.stagger {
+  margin-top: 2rem;
+}
+
+.stagger.top {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .grid-layout.main-integrations {
+        grid-template-columns: 1fr;
+    }
+
+    .section-header {
+        text-align: left;
+    }
+}
