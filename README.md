@@ -6,17 +6,17 @@
 ---
 
 ## Todo
-- [ ] Look for an emerging tech that is new for me.
-- [ ] Learn its best use and how to implement.
-- [ ] Create a webpage to implement the technology.
-    - [ ] Create a low-level HTML
-    - [ ] Style with CSS
+- [DONE] Look for an emerging tech that is new for me.
+- [DONE] Learn its best use and how to implement.
+- [DONE] Create a webpage to implement the technology.
+    - [DONE] Create a low-level HTML
+    - [DONE] Style with CSS
 
 ## What to include
-- [ ] Sample medias
-- [ ] What makes it good
-- [ ] Sample uses
-- [ ] How to use it
+- [DONE] Sample medias
+- [DONE] What makes it good
+- [DONE] Sample uses
+- [DONE] How to use it
 
 ## Resources
 - [LottieFiles Website](https://lottiefiles.com/)
