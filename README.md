@@ -1,7 +1,7 @@
 # Emerging Technology - [LottieFiles](https://lottiefiles.com/)
 
-This project is made with HTML and CSS.
-Click the [Link] to go to the live webpage of the project.
+- This project is made with HTML and CSS.
+- Click the [Link] to go to the live webpage of the project.
 
 ---
 
